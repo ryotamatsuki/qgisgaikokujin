@@ -46,7 +46,7 @@ var lyr__3 = new ol.layer.Vector({
                 style: style__3,
                 popuplayertitle: '市区町役場',
                 interactive: true,
-                title: '<img src="styles/legend/_3.png" /> 市区町役場'
+                title: '<img src="./styles/legend/_3.png" /> 市区町役場'
             });
 var format__4 = new ol.format.GeoJSON();
 var features__4 = format__4.readFeatures(json__4, 
@@ -61,11 +61,7 @@ var lyr__4 = new ol.layer.Vector({
                 style: style__4,
                 popuplayertitle: '医療機関',
                 interactive: true,
-    title: '医療機関<br />\
-    <img src="styles/legend/_4_0.png" /> 病院<br />\
-    <img src="styles/legend/_4_1.png" /> 診療所<br />\
-    <img src="styles/legend/_4_2.png" /> 歯医者<br />\
-    <img src="styles/legend/_4_3.png" /> <br />' });
+    title: '医療機関<br />    <img src="./styles/legend/_4_0.png" /> 病院<br />    <img src="./styles/legend/_4_1.png" /> 診療所<br />    <img src="./styles/legend/_4_2.png" /> 歯医者<br />    <img src="./styles/legend/_4_3.png" /> <br />' });
 var format__5 = new ol.format.GeoJSON();
 var features__5 = format__5.readFeatures(json__5, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -79,20 +75,7 @@ var lyr__5 = new ol.layer.Vector({
                 style: style__5,
                 popuplayertitle: '学校',
                 interactive: true,
-    title: '学校<br />\
-    <img src="styles/legend/_5_0.png" /> 小学校<br />\
-    <img src="styles/legend/_5_1.png" /> 中学校<br />\
-    <img src="styles/legend/_5_2.png" /> 中等教育学校<br />\
-    <img src="styles/legend/_5_3.png" /> 高等学校<br />\
-    <img src="styles/legend/_5_4.png" /> 高等専門学校<br />\
-    <img src="styles/legend/_5_5.png" /> 短期大学<br />\
-    <img src="styles/legend/_5_6.png" /> 大学<br />\
-    <img src="styles/legend/_5_7.png" /> 幼稚園<br />\
-    <img src="styles/legend/_5_8.png" /> 特別支援学校<br />\
-    <img src="styles/legend/_5_9.png" /> 幼保連携型認定こども園<br />\
-    <img src="styles/legend/_5_10.png" /> 各種学校<br />\
-    <img src="styles/legend/_5_11.png" /> 専修学校<br />\
-    <img src="styles/legend/_5_12.png" /> <br />' });
+    title: '学校<br />\n    <img src="./styles/legend/_5_0.png" /> 小学校<br />\n    <img src="./styles/legend/_5_1.png" /> 中学校<br />\n    <img src="./styles/legend/_5_2.png" /> 中等教育学校<br />\n    <img src="./styles/legend/_5_3.png" /> 高等学校<br />\n    <img src="./styles/legend/_5_4.png" /> 高等専門学校<br />\n    <img src="./styles/legend/_5_5.png" /> 短期大学<br />\n    <img src="./styles/legend/_5_6.png" /> 大学<br />\n    <img src="./styles/legend/_5_7.png" /> 幼稚園<br />\n    <img src="./styles/legend/_5_8.png" /> 特別支援学校<br />\n    <img src="./styles/legend/_5_9.png" /> 幼保連携型認定こども園<br />\n    <img src="./styles/legend/_5_10.png" /> 各種学校<br />\n    <img src="./styles/legend/_5_11.png" /> 専修学校<br />\n    <img src="./styles/legend/_5_12.png" /> <br />' });
 
 lyr_2_0.setVisible(true);lyr__1.setVisible(true);lyr_OpenStreetMap_2.setVisible(true);lyr__3.setVisible(true);lyr__4.setVisible(true);lyr__5.setVisible(true);
 var layersList = [lyr_2_0,lyr__1,lyr_OpenStreetMap_2,lyr__3,lyr__4,lyr__5];
